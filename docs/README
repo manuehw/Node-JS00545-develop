@@ -1,0 +1,13 @@
+Por favor, deja en esta carpeta el documento explicativo de la prueba
+
+
+url del proyecto:
+  http://localhost:3001/
+
+
+Para levantar el proyecto, ejecutar comandos:
+  npm i
+  npm run dev
+
+Generar build:
+  npm run build

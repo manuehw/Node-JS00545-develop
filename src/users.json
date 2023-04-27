@@ -1,0 +1,41 @@
+[
+  {
+    "id": "01f10174-c1b1-4747-b750-ac48639ebd31",
+    "name": "Manu",
+    "email": "manuehw@gmail.com",
+    "birthDate": "19/08/1993",
+    "address": {
+      "street": "Mercia",
+      "state": "3",
+      "city": "Granada",
+      "country": "España",
+      "zip": "18190"
+    }
+  },
+  {
+    "id": "ba24b025-d749-4369-a0ab-d2753026d8a3",
+    "name": "Marta",
+    "email": "marta@gmail.com",
+    "birthDate": "19/08/1996",
+    "address": {
+      "street": "Solanas",
+      "state": "3",
+      "city": "Cuenca",
+      "country": "España",
+      "zip": "16730"
+    }
+  },
+  {
+    "id": "b6ec0fd0-80bc-40f9-a1f2-1c021da5d2ef",
+    "name": "Juan",
+    "email": "juan@gmail.com",
+    "birthDate": "19/08/1996",
+    "address": {
+      "street": "Solanas",
+      "state": "3",
+      "city": "Cuenca",
+      "country": "España",
+      "zip": "16730"
+    }
+  }
+]

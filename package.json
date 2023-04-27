@@ -1,0 +1,39 @@
+{
+  "name": "node-js00545",
+  "version": "1.0.0",
+  "description": "**CODE CHALLENGE**",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev src/users.app.ts",
+    "start": "node build/users.app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/ninjatalent-world/codes/ManueHays15920-66719473/Node-JS00545.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/ninjatalent-world/codes/ManueHays15920-66719473/Node-JS00545/issues"
+  },
+  "homepage": "https://gitlab.com/ninjatalent-world/codes/ManueHays15920-66719473/Node-JS00545#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.16.0",
+    "@types/uuid": "^9.0.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "express": "4.18.2",
+    "uuid": "^9.0.0"
+  }
+}

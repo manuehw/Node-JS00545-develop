@@ -1,0 +1,127 @@
+{
+	"info": {
+		"_postman_id": "3d31e59a-620e-42a8-a83e-8038e62b6424",
+		"name": "Users API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27101651",
+		"_collection_link": "https://cloudy-water-804490.postman.co/workspace/Users-API~3ae1b6ae-876e-49df-89b3-d092392f5c67/collection/27101651-3d31e59a-620e-42a8-a83e-8038e62b6424?action=share&creator=27101651&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "GET users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/getUsers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"getUsers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET user by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/getusersById/b6ec0fd0-80bc-40f9-a1f2-1c021da5d2ef",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"getusersById",
+						"b6ec0fd0-80bc-40f9-a1f2-1c021da5d2ef"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Rolez\",\r\n    \"email\": \"rolex@gmail.com\",\r\n    \"birthDate\": \"27/06/1990\",\r\n    \"address\": {\r\n        \"street\": \"Solanas\",\r\n        \"state\": \"356\",\r\n        \"city\": \"Malaga\",\r\n        \"country\": \"España\",\r\n        \"zip\": \"14730\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/createUsers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"createUsers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update user",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n            \"id\": \"ba24b025-d749-4369-a0ab-d2753026d8a3\",\r\n            \"name\": \"Marta\",\r\n            \"email\": null,\r\n            \"birthDate\": null,\r\n            \"address\": {\r\n                \"street\": \"Solanas\",\r\n                \"state\": \"3\",\r\n                \"city\": \"Cuenca\",\r\n                \"country\": \"España\",\r\n                \"zip\": \"16730\"\r\n            }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/updateUsersById/04eccbad-db9a-47a6-90d6-d5b3e0116790",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"updateUsersById",
+						"04eccbad-db9a-47a6-90d6-d5b3e0116790"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete user by id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/deleteUsersById/f8601e24-e315-481b-b0c5-e7cab6b6214a",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"deleteUsersById",
+						"f8601e24-e315-481b-b0c5-e7cab6b6214a"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
