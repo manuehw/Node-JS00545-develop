@@ -11,10 +11,10 @@ const userCase = new UserCase(repository)
 const httpResponse = new HttpResponse()
 const userController = new UserController(userCase, httpResponse)
 
+route.get('/getusers', userController.getusers)
 route.post('/createUsers', userController.save)
 route.get('/getusersById/:userId', userController.getUserById)
 route.put('/updateUsersById/:userId', userController.updateUsersById)
 route.delete('/deleteUsersById/:userId', userController.deleteUsersById)
-route.get('/getusers', userController.getusers)
 
 export default route;

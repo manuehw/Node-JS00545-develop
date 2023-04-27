@@ -11,7 +11,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "ts-node-dev src/users.app.ts",
-    "start": "node build/users.app.js",
+    "start": "node users.app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
