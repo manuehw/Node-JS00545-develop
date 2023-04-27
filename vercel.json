@@ -1,7 +1,7 @@
 {
-    "version":2,
+    "rewrites":2,
     "builds":[{
-        "src":"./index.js",
+        "src":"./users.app.js",
         "use": "@vercel/node"
     }]
 }
